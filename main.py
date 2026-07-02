@@ -16,6 +16,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# ✅ ADD THE ROOT ENDPOINT RIGHT HERE (BEFORE agent initialization)
+@app.get("/")
+async def root():
+    return {"message": "SHL Assessment Agent is running. Use /health or /chat endpoints."}
+
 # Initialize agent
 print("🚀 Starting SHL Assessment Agent...")
 agent = SHLAgent()
