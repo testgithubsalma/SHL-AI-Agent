@@ -202,7 +202,3 @@ Python | AI | Machine Learning Enthusiast
 GitHub: **testgithubsalma**
 
 ---
-
-# 📄 License
-
-This project was developed solely for the **SHL AI Intern Take-Home Assignment** and is intended for evaluation purposes only.
